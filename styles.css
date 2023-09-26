@@ -1,0 +1,84 @@
+.knopka {
+  height: 60px;
+  width: 100px;
+  color: rgba(43, 52, 226, 0.714);
+  margin: 10px;
+  background-color: #eeddff;
+  border: 1px solid #7e7b80;
+  border-radius: 25px;
+  box-shadow: 0 9px #999;
+}
+.knopka:hover {
+  color: #fff;
+  background: #6b6868;
+  transition: all 0.1s linear;
+  -webkit-transition: all 0.1s linear;
+  -moz-transition: all 0.1s linear;
+}
+.blue {
+  height: 400px;
+  width: 510px;
+  padding: 20px;
+  background-color: #e6e6e6;
+  border: 3px solid #aeaeae;
+  border-radius: 25px;
+}
+.otvet {
+  height: 40px;
+  width: 440px;
+  background-color: #eeddff;
+  border: 1px solid #7e7b80;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.shapka {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.udalit {
+  height: 40px;
+  width: 40px;
+  color: rgba(43, 52, 226, 0.714);
+  background-color: aqua;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+}
+.znak {
+  height: 60px;
+  width: 100px;
+  color: rgba(255, 255, 255, 0.972);
+  margin: 10px;
+  background-color: #9481a7;
+  border: 1px solid #7e7b80;
+  font-size: 20px;
+  box-shadow: 0 9px #999;
+  border-radius: 6px;
+}
+.znak:hover {
+  color: #fff;
+  background: #6b6868;
+  transition: all 0.1s linear;
+  -webkit-transition: all 0.1s linear;
+  -moz-transition: all 0.1s linear;
+}
+.numbers {
+  height: fit-content;
+  width: 390px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.buttons {
+  display: flex;
+  flex-direction: row;
+}
+.ravno {
+  background-color: #9481a7;
+  color: rgba(255, 255, 255, 0.972);
+}
